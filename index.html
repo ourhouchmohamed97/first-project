@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="link.png">
+    <title>URL Shortener</title>
+</head>
+<body>
+    <div class="main">
+        <div class="shortener">
+            <div class="header">
+                <i class='bx bx-link'></i>
+                <h2>URL Shortener</h2> 
+            </div>
+            <div class="input">
+                <label for="originalUrl">&nbsp;Enter the URL to shorten :</label>
+                <br>
+                <input type="text" placeholder=" https://example.com" id="originalUrl">
+            </div>
+            <div class="control">
+                <button id="reload-btn">Reload</button>
+                <button id="short-btn">Short it</button>
+            </div>
+            <div class="output">
+                <label for="shortenedUrl">&nbsp;Shortener URL :</label>
+                <br>
+                <input type="text" id="shortenedUrl">
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
